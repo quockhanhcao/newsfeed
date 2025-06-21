@@ -1,5 +1,5 @@
 FROM debian:stable-slim
 
-COPY brokerApp /bin/brokerApp
+COPY ./build/brokerApp /bin/brokerApp
 
 CMD ["/bin/brokerApp"]
